@@ -39,3 +39,28 @@ console.log(car);
 for (let key in car) {
     console.log("for in loop", key + ": " + car[key]);
 }
+
+for (let i = 20; i >= 0; i -= 2) {
+    console.log(i)
+}
+
+for (let i = 20; i >= 0; i--) {
+    if (i % 4 === 0) {
+        console.log(i)
+    }
+}
+let fruits = ["apple", "pear", "grape"]
+console.log(fruits)
+for (let angryKids of fruits) {
+    console.log(angryKids + "s are so angry")
+}
+let EV = {
+    Make: "Tesla",
+    Model: "Cybertruck",
+    Year: 2024,
+
+};
+console.log(EV)
+for (let key in EV) {
+    console.log(key + ":" + EV[key])
+} 
